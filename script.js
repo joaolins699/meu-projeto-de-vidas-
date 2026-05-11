@@ -1,7 +1,7 @@
 const botoes = document.querySelectorAll(".botao");
 for (let i = 0; i <botoes.length; i++){
   botoes [i].oneclick = function () {
-    botoes[i].classlist(".ativo")
+    botoes[i].classlist.add("ativo")
   }
 console.log("botoes");
 }
