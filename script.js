@@ -7,7 +7,7 @@ for (let i = 0; i <botoes.length; i++){
       textos[j].classlist.remove("ativo");
     }
     botoes[i].classlist.add("ativo")
-    textos[j].classlist.add("ativo")
+    textos[i].classlist.add("ativo")
   }
 console.log("botoes");
 }
